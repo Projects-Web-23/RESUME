@@ -1,0 +1,99 @@
+.edulmain {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.leftedu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.eduheader {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lobster';
+    color: #ff6b01;
+}
+
+
+.awarditem .n1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(38, 14, 255);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    /* border-bottom: 2px solid blue; */
+    /* border-top: none; */
+}
+
+.awarditem .n2 {
+    margin-bottom: 10px;
+
+    color: #cc5500;
+    font-size: 20px;
+    /* font-weight: bolder; */
+    /* border-top: 2px solid blue; */
+    font-family: 'Montserrat';
+
+}
+
+
+.con {
+    display: flex;
+    flex-direction: column;
+}
+
+.outlinkaward {
+    margin: 15px;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 3px 0px rgb(97, 97, 97);
+    min-height: 55px;
+    width: 650px;
+}
+
+.awarditem {
+    background-color: #ffffff;
+    border-radius: 20px;
+    color: #ffffff;
+    width: fit-content;
+    margin-left: 20px;
+    box-shadow: 0px 4px 4px 0px rgb(84, 69, 186);
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* height: 60px; */
+    /* box-shadow: 0px 4px 4px 0px rgb(245, 155, 122); */
+    /* width: 30%; */
+
+}
+
+.award {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.delete-award {
+    display: inline-block;
+    width: 40px;
+    /* padding: 15px 15px; */
+    /* margin: auto; */
+    height: 40px;
+    margin-top: 13px;
+    margin-left: 5px;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 20px;
+    color: red;
+    background-color: rgb(255, 239, 239);
+    cursor: pointer;
+    margin: 10px;
+    /* margin: auto; */
+}
